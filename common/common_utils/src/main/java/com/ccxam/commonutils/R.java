@@ -3,7 +3,9 @@ package com.ccxam.commonutils;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 //统一返回结果的类

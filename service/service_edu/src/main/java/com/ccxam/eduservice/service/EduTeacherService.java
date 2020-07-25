@@ -1,9 +1,12 @@
 package com.ccxam.eduservice.service;
 
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.ccxam.eduservice.entity.EduTeacher;
 import com.baomidou.mybatisplus.extension.service.IService;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;
+
+import java.util.Map;
 
 /**
  * <p>
@@ -15,4 +18,5 @@ import org.springframework.stereotype.Repository;
  */
 public interface EduTeacherService extends IService<EduTeacher> {
 
+    Map<String, Object> getTeacherFrontList(Page<EduTeacher> pageTeacher);
 }
