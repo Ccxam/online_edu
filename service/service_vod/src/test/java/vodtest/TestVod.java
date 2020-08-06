@@ -28,8 +28,8 @@ public class TestVod {
         return client.getAcsResponse(request);
     }
     public static void main(String[] args) {
-        String accessKeyId="LTAI4GFN6FZixGK5xzXu6Ygf";
-        String accessKeySecret="0O9ZCSow0JtXrcL2NHcFnhvg8o7Ilg";
+        String accessKeyId="";
+        String accessKeySecret="";
         String title="test01uplaodSdk";
         String fileName="F:\\Relsess\\testVideo\\Move.mp4";
         UploadVideoRequest request = new UploadVideoRequest(accessKeyId, accessKeySecret, title, fileName);
